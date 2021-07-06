@@ -64,6 +64,8 @@ h2{
 footer{
     margin-bottom: 0;
     background-color: black;
+    background-repeat: no-repeat;
+    
     color: gray;
 }
 footer p{
