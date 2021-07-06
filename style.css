@@ -1,6 +1,6 @@
-body{
+font-color{
     font-family: 'Open Sans', sans-serif;
-    color: rgb(104, 94, 94);
+    color: rgba(104, 94, 94, 0.932);
 }
 h1{
     font-size: 50px;
@@ -19,6 +19,7 @@ p{
 .half-width{
     width: 50%;
     padding-left: 80px;
+   
 }
 .half-width img{
     width:85%;
@@ -30,6 +31,41 @@ p{
     padding: 20px 30px;
     color: white;
     font-weight: 900;
-    border-radius: 60px;
-   
+    border-radius: 60px;   
+}
+.middle-part-image{
+    background-image: url(images/shapes/7.png);
+}
+.gray-colour-h1{
+    color: gray;
+}
+.middle-para-color{
+    color: #333131;
+    font-weight:300;
+}
+.margin-setting{
+    margin-left: 40px;
+}
+h2{
+    text-align: center;
+}
+#last-para{
+    color: rgba(122, 116, 116, 0.781);
+    text-align: center;
+}
+#recipie-ietem{    
+    width: 60%;
+    height: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 15px;
+}
+footer{
+    margin-bottom: 0;
+    background-color: black;
+    color: gray;
+}
+footer p{
+    text-align: center;
 }
