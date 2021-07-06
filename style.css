@@ -1,0 +1,35 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(104, 94, 94);
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: rgba(128, 128, 128, 0.514);
+    font-size: 20px;
+}
+.orange-colour{
+    color: orange;
+}
+.flexible-container{
+    display:flex;
+    margin-top: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 80px;
+}
+.half-width img{
+    width:85%;
+}
+.link-button{
+    text-align: center;
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    padding: 20px 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 60px;
+   
+}
